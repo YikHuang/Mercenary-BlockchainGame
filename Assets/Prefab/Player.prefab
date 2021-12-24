@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3046241187570778006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5843248056506102806}
+  - component: {fileID: 2249336166714756716}
+  - component: {fileID: 1665378269270029127}
+  - component: {fileID: 8833197402537425068}
+  - component: {fileID: 3616308117322783899}
+  - component: {fileID: 5742927325473278139}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5843248056506102806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3590376, y: -0.41216365, z: -0.12599301}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2249336166714756716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &1665378269270029127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183caccf0e376594c8adf0b0b0663174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_control: {fileID: 3046241187570778006}
+  player: {fileID: 3046241187570778006}
+  IP: 
+  ID: 0
+  rival_ID: 0
+  room_number: 0
+  state: 
+  battle_position: 
+  type: 
+  win: 0
+--- !u!114 &8833197402537425068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9bb6b4d4e2303e4c835bd77328058d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3046241187570778006}
+  ID_text: {fileID: 0}
+  Human: {fileID: 0}
+  Dragon: {fileID: 0}
+  GOD: {fileID: 0}
+  Enter: {fileID: 0}
+--- !u!114 &3616308117322783899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcbdae8fd265cc40bbc709c80d5f309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  player: {fileID: 3046241187570778006}
+  bulletin: {fileID: 0}
+  conqueror: {fileID: 0}
+  dragon: {fileID: 0}
+  human: {fileID: 0}
+  god: {fileID: 0}
+  dragon_number: {fileID: 0}
+  human_number: {fileID: 0}
+  god_number: {fileID: 0}
+  type_text: {fileID: 0}
+  SysMsg: {fileID: 0}
+  tomb: {fileID: 0}
+  grassland: {fileID: 0}
+  mountain: {fileID: 0}
+  lake: {fileID: 0}
+  conquer_tomb: {fileID: 0}
+  conquer_grassland: {fileID: 0}
+  conquer_mountain: {fileID: 0}
+  conquer_lake: {fileID: 0}
+  battle: {fileID: 0}
+  leave: {fileID: 0}
+  restart: 0
+  bulletin_number: 000000000000000000000000
+--- !u!114 &5742927325473278139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046241187570778006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe717914ccc4ca4f84d22a0e676a7d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  warrior_audio: {fileID: 0}
+  knight_audio: {fileID: 0}
+  magician_audio: {fileID: 0}
+  archer_audio: {fileID: 0}
+  monk_audio: {fileID: 0}
+  player: {fileID: 3046241187570778006}
+  warrior: {fileID: 0}
+  Instantiate_Position: {fileID: 0}
+  p1_id: {fileID: 0}
+  p2_id: {fileID: 0}
+  Text: {fileID: 0}
+  timer_text: {fileID: 0}
+  round_text: {fileID: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  timer: 30
+  start_timer: 1
+  prepare: 1
+  battle_end: 0
+  restart: 0
+  round: 0
+  current_put_num: 0
+  warrior_last: 4
+  p1_warrior_put_last: 4
+  p2_warrior_put_last: 4
+  p1_warrior_clear: 4
+  p2_warrior_clear: 4
+  p1_warrior_move: 4
+  p2_warrior_move: 4
+  knight_last: 2
+  p1_knight_put_last: 2
+  p2_knight_put_last: 2
+  p1_knight_clear: 2
+  p2_knight_clear: 2
+  p1_knight_move: 2
+  p2_knight_move: 2
+  archer_last: 3
+  p1_archer_put_last: 3
+  p2_archer_put_last: 3
+  p1_archer_clear: 3
+  p2_archer_clear: 3
+  p1_archer_move: 3
+  p2_archer_move: 3
+  magician_last: 2
+  p1_magician_put_last: 2
+  p2_magician_put_last: 2
+  p1_magician_clear: 2
+  p2_magician_clear: 2
+  p1_magician_move: 2
+  p2_magician_move: 2
+  monk_last: 1
+  p1_monk_put_last: 1
+  p2_monk_put_last: 1
+  p1_monk_clear: 1
+  p2_monk_clear: 1
+  p1_monk_move: 1
+  p2_monk_move: 1
+  select: 0
+  warrior_attacktime: 2
+  magician_attacktime: 2
+  archer_attacktime: 4
+  monk_attacktime: 2
+  attack_time_count: 0
+  round_chess: 0200000002000000020000000300000003000000
+  warrior_one: 0
+  warrior_two: 0
+  put_done: 
+  warrior_pos: 
+  button_warrior: {fileID: 0}
+  button_knight: {fileID: 0}
+  button_magician: {fileID: 0}
+  button_archer: {fileID: 0}
+  button_monk: {fileID: 0}
+  A1: {fileID: 0}
+  red_territory: {fileID: 0}
+  blue_territory: {fileID: 0}
+  battle_end_notice: {fileID: 0}
+  p1_warrior1: {fileID: 0}
+  win_picture: {fileID: 0}
+  lose_picture: {fileID: 0}
+  p1_attack_monk: {fileID: 0}
+  p1_attack_warrior: {fileID: 0}
+  p1_attack_knight: {fileID: 0}
+  p1_attack_archer: {fileID: 0}
+  p1_attack_magician: {fileID: 0}
+  copy_monk_attack: []
+  copy_warrior_attack: []
+  copy_knight_attack: []
+  copy_magician_attack: []
+  copy_archer_attack: []
+  posX: 0
+  posY: 0
+  p1_warrior: []
+  p2_warrior: []
+  p1_knight: []
+  p2_knight: []
+  p1_magician: []
+  p2_magician: []
+  p1_archer: []
+  p2_archer: []
+  p1_monk: []
+  p2_monk: []
