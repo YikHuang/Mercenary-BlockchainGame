@@ -1,12 +1,8 @@
 # Mercenary - Blockchain Game
 
 - 2D Multiplayer Blockchain Strategy Game
-- Made in 2019
 - Created by Unity
-
 - Start the game through .exe stored in exe folder or Unity
-
-
 
 ## Game Rule
 
